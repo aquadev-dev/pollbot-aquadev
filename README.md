@@ -25,6 +25,7 @@
 </div>
 
 <h2>Features</h2>
+
 - Currently allows the users to vote between two options with buttons they can click to vote with
 - Checks to see if someone has already voted, so you can’t vote twice
 - Bars update in real-time through the use of a MongoDB database
