@@ -58,5 +58,19 @@ node .
 ```
 
 <h2>Configuring the Bot</h2>
+<p>Before you can start using the bot, you need to run one command:</p>
 
+```
+/config-polls add <poll-channel-name>
+```
+<p>This adds your guildID and channelID to the bots database so it can check that the channel the '/poll' command was run in is in the database of poll channels</p>
+
+<p>You can also remove the channel from the database by typing the command:</p>
+
+```
+/config-polls remove <poll-channel-name>
+```
+
+<h2>Errors/Warning Messages</h2>
+<p>If you haven't run the configuration commands, then the bot will send this message:</p>
 
