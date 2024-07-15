@@ -104,3 +104,7 @@ node .
 <img src="/imgs/PollDemo5.png">
 <img src="/imgs/PollDemo6.png">
 <img src="/imgs/PollDemo4.png">
+
+<h2>Note</h2>
+<p>If the bot get's turned off for some reason, the bot will still work as everything is saved to the database you've linked it too</p>
+<p>Have fun :), Nathan</p>
