@@ -95,7 +95,7 @@ module.exports = async (interaction) => {
 
             await targetPoll.save();
             
-            interaction.editReply('Voted for Option !');
+            interaction.editReply('Voted for Option 2️⃣!');
 
             targetMessageEmbed.fields[1].value = formatResults(
                 targetPoll.option1Votes,
