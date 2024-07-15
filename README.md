@@ -95,18 +95,12 @@ node .
 ```
 /poll-create Test op1 op2
 ```
-<p>When the command has been run in the correct channel is should display the poll:</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p>When the command has been run in the correct channel is should display the poll like this:</p>
+<img src="/imgs/PollDemo1.png">
+<p>You can click on the vote button for option1 or option2 and the bars should update automatically:</p>
+<img src="/imgs/PollDemo2.png">
+<img src="/imgs/PollDemo3.png">
+<p>Then once and admin has pressed the results button the bot calculates the results and updates the title of the embed to show what option won or if it was a draw:</p>
+<img src="/imgs/PollDemo5.png">
+<img src="/imgs/PollDemo6.png">
+<img src="/imgs/PollDemo4.png">
