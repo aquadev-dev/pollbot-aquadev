@@ -31,7 +31,7 @@
 - Bars update in real time through the use of a MongoDB database
 - Admins can decide when it’s time to end a poll by pressing the ‘Results’ button
 
-<h2>Usage</h2>
+<h2>How to run the bot</h2>
 <p align="left">Make sure you install the latest NodeJS version and have a Discord bot application to run the code smoothly.</p>
 <p align="left">You can find out how to set up a Discord bot application here: https://discord.com/developers/docs/quick-start/getting-started</p>
 <p align="left">You find out how to set up a MongoDB database here: https://www.youtube.com/watch?v=edeNqzKvj0g</p>
@@ -73,4 +73,11 @@ node .
 
 <h2>Errors/Warning Messages</h2>
 <p>If you haven't run the configuration commands, then the bot will send this message:</p>
+<img src="/imgs/Warning1.png">
+<p>If you don't have enough permissions to run the config commands it will give you this error:</p>
+<img src="/imgs/Warning2.png">
+<p>If you have already voted for an option and try to vote again it will give you this message:</p>
+<img src="/imgs/Warning3.png">
+<p>If you do not have enough permissions to release the results of the poll the you will get this message:</p>
+<img src="/imgs/Warning4.png">
 
