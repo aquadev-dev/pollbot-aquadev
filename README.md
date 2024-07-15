@@ -81,3 +81,4 @@ node .
 <p>If you do not have enough permissions to release the results of the poll the you will get this message:</p>
 <img src="/imgs/Warning4.png">
 
+<h2>Using the bot</h2>
