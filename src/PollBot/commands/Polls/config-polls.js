@@ -45,7 +45,7 @@ module.exports = {
             );
             await guildConfiguration.save();
 
-            await interaction.reply(`Removed ${channel} from suggestion channels`);
+            await interaction.reply(`Removed ${channel} from poll channels`);
             return;
         }
     },
