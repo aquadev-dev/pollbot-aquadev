@@ -17,4 +17,15 @@
   <img src="https://raw.githubusercontent.com/underctrl-io/commandkit/next/apps/docs/public/logo_lg.webp" hieght="50" width="60">
 </div>
 
-<h2></h2>
+<h2>Tools Used</h2>
+<div align="start">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" hieght="50" width="60">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" hieght="50" width="60">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" hieght="50" width="60">
+</div>
+
+<h2>Features</h2>
+- Currently allows the users to vote between two options with buttons they can click to vote with
+- Checks to see if someone has already voted, so you can’t vote twice
+- Bars update in real-time through the use of a MongoDB database
+- Admins can decide when it’s time to end a poll by pressing the ‘Results’ button
