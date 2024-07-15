@@ -1,1 +1,4 @@
-<h1 align="left">Poll bot for discord</h1>
+<h1 align="left">Discord Poll Bot</h1>
+
+
+
