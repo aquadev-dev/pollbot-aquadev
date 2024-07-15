@@ -63,7 +63,7 @@ node .
 ```
 /config-polls add <poll-channel-name>
 ```
-<p>This adds your guildID and channelID to the bots database so it can check that the channel the '/poll' command was run in is in the database of poll channels</p>
+<p>This adds your guildID and channelID to the bots database so it can check that the channel the '/poll-create' command was run in is in the database of poll channels</p>
 
 <p>You can also remove the channel from the database by typing the command:</p>
 
@@ -80,5 +80,33 @@ node .
 <img src="/imgs/Warning3.png">
 <p>If you do not have enough permissions to release the results of the poll the you will get this message:</p>
 <img src="/imgs/Warning4.png">
+<p>If you run the /poll-create command in a channel that is not already in the database you will get this message:</p>
+<img src="/imgs/Warning5.png">
 
 <h2>Using the bot</h2>
+<p>Once you have configured the bot, to create a poll you can run the command:</p>
+
+```
+/poll-create <title> <option1-name> <option2-name>
+```
+
+<p>For example some thing like this:</p>
+
+```
+/poll-create Test op1 op2
+```
+<p>When the command has been run in the correct channel is should display the poll:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
