@@ -25,7 +25,7 @@ module.exports = {
 
             if (!guildConfiguration.pollChannelIds.includes(interaction.channelId)) {
                 await interaction.reply(
-                    `This channel is not configured to use suggestions. Try one of these channels instead: ${guildConfiguration.
+                    `This channel is not configured to use polls. Try one of these channels instead: ${guildConfiguration.
                         pollChannelIds
                         .map((id) => `<#${id}>`)
                         .join(', ')}`
