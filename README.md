@@ -51,8 +51,38 @@ MONGODB_URI = YOUR_MONGODB_URI
 ```
 
 - Download the rest of the project files
-- Make sure the bot you created is added to the discord server you want to run it in
-- Start the bot by running the following command
+
+Make sure you download the emojis for the progress bar and upload them to the server that you are adding the bot to. Go to the folder named 'Bar Images' to find all the ones you need and name them to the name of the images:
+- If you don't know how to upload the images to the discord server then you can find out here: <a href="https://support.discord.com/hc/en-us/articles/360036479811-Custom-Emojis#:~:text=To%20upload%20custom%20emojis%2C%20choose,to%20upload%20a%20custom%20emoji." title="Discord Support: How to upload custom emojis">Discord Support: How to upload custom emojis</a>
+
+Also, in the 'formatResult.js' file, you need to copy the ids of the emojis for it to work because it will be different to the ids already there:
+
+```js
+const pb = {
+    le: '<:le:your-emoji-ids-here>',
+    me: '<:me:your-emoji-ids-here>',
+    re: '<:re:your-emoji-ids-here>',
+    lf: '<:lf:your-emoji-ids-here>',
+    mf: '<:mf:your-emoji-ids-here>',
+    rf: '<:rf:your-emoji-ids-here>',
+  };
+```
+
+If you can't get the ids, you can type this to get the id for each emoji:
+```
+\:le:
+\:lf:
+\:me:
+\:mf:
+\:re:
+\:rf:
+```
+It should give you a string like this:
+```
+<:le:your-emoji-id-here>
+```
+Make sure the bot you created is added to the discord server you want to run it in:
+- Start the bot by running the following command:
 ```
 node .
 ```
