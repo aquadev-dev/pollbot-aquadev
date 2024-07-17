@@ -4,7 +4,7 @@
 <p align="left">See it in action here: (Insert Link Here!)</p>
 <h2>About</h2>
 <p>
-  While working on my Discord bot for the computer science Discord server, I found two unique features I created that I would like to showcase separately: a suggestion system bot and a poll bot. When working on the suggestion system, I realised that I could also turn it into a poll system, where the figures and bars update in real time as people vote for the options, just like the suggestion system but configured to display differently.
+  While working on my Discord bot for the computer science Discord server, I found two unique features I created that I would like to showcase separately: a suggestion system bot and a poll bot. When working on the suggestion system, I realized that I could also turn it into a poll system, where the figures and bars update in real-time as people vote for the options, just like the suggestion system but configured to display differently.
 </p>
 
 <h2>Language and Modules Used</h2>
@@ -51,7 +51,7 @@ MONGODB_URI = YOUR_MONGODB_URI
 ```
 
 - Download the rest of the project files
-- Make sure the bot you created is added the discord server you want to run it in
+- Make sure the bot you created is added to the discord server you want to run it in
 - Start the bot by running the following command
 ```
 node .
@@ -63,7 +63,7 @@ node .
 ```
 /config-polls add <poll-channel-name>
 ```
-<p>This adds your guildID and channelID to the bots database so it can check that the channel the '/poll-create' command was run in is in the database of poll channels</p>
+<p>This adds your guildID and channelID to the bot's database so it can check that the channel the '/poll-create' command was run in is in the database of poll channels</p>
 
 <p>You can also remove the channel from the database by typing the command:</p>
 
@@ -74,37 +74,37 @@ node .
 <h2>Errors/Warning Messages</h2>
 <p>If you haven't run the configuration commands, then the bot will send this message:</p>
 <img src="/imgs/Warning1.png">
-<p>If you don't have enough permissions to run the config commands it will give you this error:</p>
+<p>If you don't have enough permissions to run the config commands, it will give you this error:</p>
 <img src="/imgs/Warning2.png">
-<p>If you have already voted for an option and try to vote again it will give you this message:</p>
+<p>If you have already voted for an option and try to vote again, it will give you this message:</p>
 <img src="/imgs/Warning3.png">
-<p>If you do not have enough permissions to release the results of the poll the you will get this message:</p>
+<p>If you do not have enough permissions to release the results of the poll, you will get this message:</p>
 <img src="/imgs/Warning4.png">
-<p>If you run the /poll-create command in a channel that is not already in the database you will get this message:</p>
+<p>If you run the /poll-create command in a channel that is not already in the database, you will get this message:</p>
 <img src="/imgs/Warning5.png">
 
 <h2>Using the bot</h2>
-<p>Once you have configured the bot, to create a poll you can run the command:</p>
+<p>Once you have configured the bot to create a poll, you can run the command:</p>
 
 ```
 /poll-create <title> <option1-name> <option2-name>
 ```
 
-<p>For example some thing like this:</p>
+<p>For example something like this:</p>
 
 ```
 /poll-create Test op1 op2
 ```
-<p>When the command has been run in the correct channel is should display the poll like this:</p>
+<p>When the command has been run in the correct channel, it should display the poll like this:</p>
 <img src="/imgs/PollDemo1.png">
 <p>You can click on the vote button for option1 or option2 and the bars should update automatically:</p>
 <img src="/imgs/PollDemo2.png">
 <img src="/imgs/PollDemo3.png">
-<p>Then once and admin has pressed the results button the bot calculates the results and updates the title of the embed to show what option won or if it was a draw:</p>
+<p>Then, once an admin has pressed the results button, the bot calculates the results and updates the title of the embed to show what option won or if it was a draw:</p>
 <img src="/imgs/PollDemo5.png">
 <img src="/imgs/PollDemo6.png">
 <img src="/imgs/PollDemo4.png">
 
 <h2>Note</h2>
-<p>If the bot get's turned off for some reason, the bot will still work as everything is saved to the database you've linked it too</p>
+<p>If the bot gets turned off for some reason, the bot will still work when restarted, as everything is saved to the database you've linked it to</p>
 <p>Have fun :), Nathan</p>
